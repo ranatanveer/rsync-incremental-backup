@@ -1,0 +1,7 @@
+# Cron for rsync backup below,
+# Note: set cron according to the exclude variable you set in /usr/local/bin/rsync-backup-core.sh
+
+#45 1 * * * root  /usr/local/bin/rsync-backup-mon-cron.sh /etc        /usr/local/etc/rsync-backup-excludes  2>&1
+#48 1 * * * root  /usr/local/bin/rsync-backup-mon-cron.sh /home  /usr/local/etc/rsync-backup-excludes  2>&1
+#53 1 * * * root  /usr/local/bin/rsync-backup-mon-cron.sh /usr/local        /usr/local/etc/rsync-backup-excludes  2>&1
+#56 1 * * * root  /usr/local/bin/rsync-backup-mon-cron.sh /var   /usr/local/etc/rsync-backup-excludes  2>&1

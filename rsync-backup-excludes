@@ -1,0 +1,12 @@
+/var/cache
+/var/db
+/var/run
+/var/spool
+/var/account
+/var/empty
+/var/games
+/var/lock  
+/var/run 
+/var/tmp
+/var/yp
+/var/mrsmonclient

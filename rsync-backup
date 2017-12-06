@@ -1,0 +1,4 @@
+/tmp/rsync_it.log {
+   daily
+   rotate 12
+}
